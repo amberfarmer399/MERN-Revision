@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Page</title>
+</head>
+<body>
+
+  <h1>Student Information Table</h1>
+
+  <table border="1">
+    <tr>
+      <th>Student Name</th>
+      <th>Email</th>
+      <th>Course</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Rohit</td>
+      <td>prithvi@gmail.com</td>
+      <td>BCA</td>
+      <td>Delhi</td>
+    </tr>
+    <tr>
+      <td>Priya</td>
+      <td>parv@gmail.com</td>
+      <td>BSc</td>
+      <td>Jaipur</td>
+    </tr>
+    <tr>
+      <td>Ankit</td>
+      <td>aditya@gmail.com</td>
+      <td>BTech</td>
+      <td>Mumbai</td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <h1>Student Registration Form</h1>
+
+  <form>
+
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Skills:</label><br>
+    <input type="checkbox" name="skills" value="html"> HTML
+    <input type="checkbox" name="skills" value="css"> CSS
+    <input type="checkbox" name="skills" value="js"> JavaScript<br><br>
+
+    <label for="city">City:</label><br>
+    <select id="city" name="city">
+      <option>Delhi</option>
+      <option>Mumbai</option>
+      <option>Jaipur</option>
+      <option>Indore</option>
+    </select><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="photo">Upload Photo:</label><br>
+    <input type="file" id="photo" name="photo"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button" disabled>Disabled Button</button><br><br>
+
+    <label>Image Submit Button:</label><br>
+    <input type="image" src="submit.png" alt="Submit Form">
+
+    <br><br>
+
+    <h3>Bonus Inputs</h3>
+
+    <label for="color">Favourite Color:</label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <label for="range">Skill Level (Range):</label><br>
+    <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+    <label for="url">Portfolio URL:</label><br>
+    <input type="url" id="url" name="url" placeholder="https://yourportfolio.com"><br><br>
+
+    <label for="time">Preferred Contact Time:</label><br>
+    <input type="time" id="time" name="time"><br><br>
+
+  </form>
+
+</body>
+</html>
